@@ -12,4 +12,5 @@ var agent = require('./_header')
 agent.createMessage()
   .device(device)
   .alert('Hello Universe!')
+  .badge(1)
   .send();
